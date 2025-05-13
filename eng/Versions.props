@@ -33,7 +33,7 @@
     <MicrosoftNETSdkPackageVersion>9.0.100-rc.2.24474.11</MicrosoftNETSdkPackageVersion>
     <MicrosoftDotnetSdkInternalPackageVersion>$(MicrosoftNETSdkPackageVersion)</MicrosoftDotnetSdkInternalPackageVersion>
     <!-- dotnet/runtime -->
-    <MicrosoftNETCoreAppRefPackageVersion>9.0.0-rc.2.24473.5</MicrosoftNETCoreAppRefPackageVersion>
+    <MicrosoftNETCoreAppRefPackageVersion>9.0.0</MicrosoftNETCoreAppRefPackageVersion>
     <SystemTextJsonPackageVersion>$(MicrosoftNETCoreAppRefPackageVersion)</SystemTextJsonPackageVersion>
     <SystemTextEncodingsWebPackageVersion>$(MicrosoftNETCoreAppRefPackageVersion)</SystemTextEncodingsWebPackageVersion>
     <MicrosoftBclAsyncInterfacesPackageVersion>$(MicrosoftNETCoreAppRefPackageVersion)</MicrosoftBclAsyncInterfacesPackageVersion>
@@ -82,7 +82,7 @@
     <MicrosoftAspNetCoreMetadataPackageVersion>9.0.0-rc.2.24474.3</MicrosoftAspNetCoreMetadataPackageVersion>
     <MicrosoftJSInteropPackageVersion>9.0.0-rc.2.24474.3</MicrosoftJSInteropPackageVersion>
     <!-- Everything else (previous edition) -->
-    <MicrosoftAspNetCorePackageVersion>8.0.7</MicrosoftAspNetCorePackageVersion>
+    <MicrosoftAspNetCorePackageVersion>9.0.0-rc.2.24474.3</MicrosoftAspNetCorePackageVersion>
     <MicrosoftAspNetCoreAuthorizationPreviousPackageVersion>$(MicrosoftAspNetCorePackageVersion)</MicrosoftAspNetCoreAuthorizationPreviousPackageVersion>
     <MicrosoftAspNetCoreAuthenticationFacebookPreviousPackageVersion>$(MicrosoftAspNetCorePackageVersion)</MicrosoftAspNetCoreAuthenticationFacebookPreviousPackageVersion>
     <MicrosoftAspNetCoreAuthenticationGooglePreviousPackageVersion>$(MicrosoftAspNetCorePackageVersion)</MicrosoftAspNetCoreAuthenticationGooglePreviousPackageVersion>
@@ -101,12 +101,12 @@
     <MicrosoftCodeAnalysisPublicApiAnalyzersVersion>3.3.4</MicrosoftCodeAnalysisPublicApiAnalyzersVersion>
     <MicrosoftCodeAnalysisBannedApiAnalyzersVersion>3.3.4</MicrosoftCodeAnalysisBannedApiAnalyzersVersion>
     <MicrosoftIoRecyclableMemoryStreamVersion>3.0.1</MicrosoftIoRecyclableMemoryStreamVersion>
-    <SystemNumericsVectorsVersion>4.5.0</SystemNumericsVectorsVersion>
-    <SystemMemoryPackageVersion>4.5.5</SystemMemoryPackageVersion>
-    <SystemBuffersPackageVersion>4.5.1</SystemBuffersPackageVersion>
+    <SystemNumericsVectorsVersion>4.6.0</SystemNumericsVectorsVersion>
+    <SystemMemoryPackageVersion>4.6.0</SystemMemoryPackageVersion>
+    <SystemBuffersPackageVersion>4.6.0</SystemBuffersPackageVersion>
     <SystemIOUnmanagedMemoryStreamPackageVersion>4.3.0</SystemIOUnmanagedMemoryStreamPackageVersion>
     <SystemObjectModelPackageVersion>4.3.0</SystemObjectModelPackageVersion>
-    <SystemRuntimeCompilerServicesUnsafePackageVersion>6.0.0</SystemRuntimeCompilerServicesUnsafePackageVersion>
+    <SystemRuntimeCompilerServicesUnsafePackageVersion>6.1.0</SystemRuntimeCompilerServicesUnsafePackageVersion>
     <!-- GLIDE - the android maven artifact in /src/Core/AndroidNative/maui/build.gradle -->
     <!-- must be kept in sync with the binding library version to it here: -->
     <_XamarinAndroidGlideVersion>4.16.0.6</_XamarinAndroidGlideVersion>
